@@ -1,0 +1,12 @@
+
+
+sudo apt-get install --print-uris --yes redshift redshift-gtk | grep ^\' | cut -d\' -f2 > packages.txt
+
+
+By run this i got the packages list. 
+
+then i will use another things
+
+mkdir dependencies
+cd dependencies
+wget -i ../packages.txt
