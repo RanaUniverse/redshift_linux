@@ -10,5 +10,5 @@ After install the redshift and all the necessary package i need to run command,
 To stop the redshift working
 
 
-`redshift -O 4500`
+`redshift -P -O 4500`
 is good for me
